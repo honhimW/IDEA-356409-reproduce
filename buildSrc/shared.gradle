@@ -54,17 +54,7 @@ dependencies {
         add('testAnnotationProcessor', "org.projectlombok:lombok:${lombokVersion}")
     }
 
-    implementation 'com.fasterxml.jackson.core:jackson-core'
-    implementation 'com.fasterxml.jackson.core:jackson-databind'
-    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jdk8'
-    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
-//    implementation 'com.fasterxml.jackson.core:jackson-annotations'
-    implementation 'org.apache.commons:commons-lang3'
-    implementation 'org.apache.commons:commons-collections4'
-    implementation 'com.google.guava:guava'
-
     implementation 'org.slf4j:slf4j-api'
-
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 }
