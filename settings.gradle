@@ -1,0 +1,4 @@
+rootProject.name = 'IDEA-356409-reproduce'
+include 'hibernate5'
+include 'hibernate6'
+

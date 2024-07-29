@@ -1,0 +1,12 @@
+apply from: rootProject.file('buildSrc/shared.gradle')
+
+def hibernateVersion = '6.5.2.Final'
+
+dependencies {
+    constraints {
+        add('implementation', "org.hibernate:hibernate-core:${hibernateVersion}")
+    }
+    implementation 'org.hibernate:hibernate-core'
+
+    testImplementation 'org.jetbrains:annotations:24.1.0'
+}
